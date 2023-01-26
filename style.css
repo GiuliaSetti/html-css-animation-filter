@@ -112,7 +112,20 @@
 
 /* ____________________________________ */
 
+/* esercizio 8 */
 
+.ex-8-img{
+    transition: 1s ease;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(80%);
+    filter: sepia(60%);
+    border-radius: 30px;
+}
+
+/* _____________________________________ */
+    
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
