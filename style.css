@@ -93,13 +93,24 @@
 
 /* esercizio 6 */
 
-
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
 
-/* __________ */
+/* _____________________________________ */
 
+/* esercizio 7 */
+
+.ex-7-img{
+    transition: 1s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(80%);
+    filter: sepia(60%);
+}
+
+/* ____________________________________ */
 
 
 .ex-9-img {
