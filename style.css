@@ -49,12 +49,24 @@
 
 /* ______________________________________ */
 
+/* esercizio 4 */
 
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+
+    transition: 1s ease-in;
 }
+
+.ex-4-square:hover{
+    opacity:calc(0);
+}
+
+
+/* ______________________________________ */
+
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
