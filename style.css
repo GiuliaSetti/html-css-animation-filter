@@ -243,4 +243,69 @@
 
 /* ________________________________ */
 
+/* esercizio 13 */
 
+.ex-13-button:hover .ex-13-top-white{
+    animation: bianco13top 2s;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: bianco13bottom 2s;
+}
+
+@keyframes bianco13top{
+    0%{
+        left:10%;
+        top:-10px;
+    }
+    25%{
+        left:80%;
+        top:-10px;
+    }
+    50% {
+        left:80%;
+        top:100%;
+    }
+    75% {
+        left:-10%;
+        top:100%;
+    }
+
+    90% {
+        left:-10%;
+        top:-10px;
+    }
+
+    100% {
+        left:10%;
+        top:-10px;
+    }
+}
+
+@keyframes bianco13bottom{
+    0%{
+        right:20%;
+        bottom:-10px;
+    }
+    25% {
+        right:80%;
+        bottom:-10px;
+    }
+    50% {
+        right:80%;
+        bottom:100%;
+    }
+    75% {
+        right: -20%;
+        bottom: 100%;
+    }
+    90% {
+        right: -20%;
+        bottom: -10px;
+    }
+
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
+}
