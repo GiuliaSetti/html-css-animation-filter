@@ -182,13 +182,7 @@
 }
 
 
-
-
-
-
-
-
-
+/* _______________________________ */
 
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -219,5 +213,34 @@
     width: 60px;
     height: 20px;
 }
+
+/* esercizio 12 */
+.ex-12-button:hover .ex-12-top-white{
+    animation: bianco12top 2s;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bianco12bottom 2s;
+}
+
+@keyframes bianco12top{
+    0%{
+        left: 10%;
+    }
+    50%{
+        left: 60%;
+    }
+}
+
+@keyframes bianco12bottom{
+    0%{
+        right:20%;
+    }
+    50%{
+        right:60%;
+    }
+}
+
+/* ________________________________ */
 
 
