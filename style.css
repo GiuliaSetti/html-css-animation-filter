@@ -155,16 +155,41 @@
 
 @keyframes rotate {
     0%{
-      transform: rotate(360deg)
+      transform: rotate(360deg);
     }   
 }
 
-
 /* ___________________________________ */
 
-.ex-11-icon {
+/* esercizio 11 */
+
+.ex-11-icon{
     font-size: 60px;
 }
+    
+
+.ex-11-icon:hover{
+    animation: rotatequasi 1s linear;  
+}
+
+@keyframes rotatequasi {
+    0%{
+        transform: rotate(0);
+    }
+    75%{
+        transform: rotate(315deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
